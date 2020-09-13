@@ -1,17 +1,17 @@
-= Construyendo una API en Laravel =
+# Construyendo una API en Laravel
 
-= Requisitos =
+# Requisitos
 * Composer
 * PHP 7.4
 
-= Pasos = 
-== Instalar Laravel ==
+# Pasos
+## Instalar Laravel
   composer global require laravel/installer
 
-== Crear proyecto ==
+## Crear proyecto
   composer create-project --prefer-dist laravel/laravel api_book "7.*"
 
-= Comandos útiles =
+# Comandos útiles
   php artisan serve
   php artisan route:list
   php artisan make:controller BookController --resource
